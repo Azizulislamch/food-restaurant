@@ -148,3 +148,69 @@
   border-radius: 8px;
   background: rgba(82, 195, 3, 0.15);
 }
+
+#about {
+  display: flex;
+  width: 100%;
+  height: 333px;
+}
+
+#about .image {
+  width: 50%;
+  height: 100%;
+}
+
+#about .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#about .social {
+  width: 50%;
+  height: 100%;
+  background-image: linear-gradient(
+      0deg,
+      rgb(16, 16, 16) -19.5%,
+      rgba(16, 16, 16, 0) 100%
+    ), url("../assets/social-bg.png");
+
+  justify-content: center;
+  align-items: center;
+  font-family: Work Sans;
+  text-align: center;
+}
+
+.social-info h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #111;
+  line-height: 45px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 25px 20px 14px;
+}
+
+.social-info p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #111;
+  opacity: 0.6;
+  margin-bottom: 20px;
+}
+
+.social hr {
+  border: none;
+  border-top: 1px solid #c1b4b4;
+  margin: 18px 0;
+}
+
+.social h3 {
+  font-size: 18px;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin: 30px 20px;
+}
